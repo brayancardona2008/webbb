@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portal Estudiantil CBTIS No. 131 - Consulta de calificaciones, certificados y trámites en línea">
+    <meta name="keywords" content="CBTIS 131, boleta, calificaciones, certificados, constancias, pagos">
+    <title>Portal Estudiantil - CBTIS No. 131</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo-section">
+                    <img src="logo-abeja.svg" alt="Logo CBTIS 131" class="logo" id="logo">
+                    <div class="logo-text">
+                        <h1>CBTIS No. 131</h1>
+                        <p>Portal Estudiantil</p>
+                    </div>
+                </div>
+                <nav class="nav">
+                    <ul class="nav-list">
+                        <li><a href="#inicio">Inicio</a></li>
+                        <li><a href="#servicios">Servicios</a></li>
+                        <li><a href="#pagos">Pagos</a></li>
+                        <li><a href="#contacto">Contacto</a></li>
+                    </ul>
+                    <button class="menu-toggle" id="menuToggle">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="inicio">
+        <div class="container">
+            <div class="hero-content">
+                <h2>Bienvenido al Portal Estudiantil</h2>
+                <p>Accede a todos tus servicios académicos en un solo lugar</p>
+                <div class="hero-buttons">
+                    <a href="#servicios" class="btn btn-primary">Explorar Servicios</a>
+                    <a href="#login" class="btn btn-secondary">Iniciar Sesión</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Alerta de Pagos Temporales -->
+    <div class="alert-banner" id="alertBanner">
+        <div class="container">
+            <p>
+                <strong>⚠️ Periodo de Pagos Activo:</strong> 
+                Consulta tu referencia de pago de Banco Santander disponible durante agosto y febrero.
+            </p>
+            <button class="alert-close" id="alertClose">&times;</button>
+        </div>
+    </div>
+
+    <!-- Servicios Section -->
+    <section class="services" id="servicios">
+        <div class="container">
+            <h2 class="section-title">Nuestros Servicios</h2>
+            <p class="section-subtitle">Accede rápidamente a los trámites y consultas más importantes</p>
+            
+            <div class="services-grid">
+                <article class="service-card">
+                    <div class="service-icon">📊</div>
+                    <h3>Boleta de Calificaciones</h3>
+                    <p>Consulta tus calificaciones del semestre actual y anteriores de forma rápida y segura.</p>
+                    <a href="#" class="service-link">Consultar ahora →</a>
+                </article>
+
+                <article class="service-card">
+                    <div class="service-icon">🎓</div>
+                    <h3>Certificados de Egresados</h3>
+                    <p>Descarga y solicita tu certificado de estudios como egresado del CBTIS 131.</p>
+                    <a href="#" class="service-link">Solicitar certificado →</a>
+                </article>
+
+                <article class="service-card">
+                    <div class="service-icon">📄</div>
+                    <h3>Constancias de Estudios</h3>
+                    <p>Tramita constancias oficiales con validez institucional de manera digital.</p>
+                    <a href="#" class="service-link">Tramitar constancia →</a>
+                </article>
+
+                <article class="service-card">
+                    <div class="service-icon">📚</div>
+                    <h3>Historial Académico</h3>
+                    <p>Revisa tu trayectoria académica completa con todas tus calificaciones.</p>
+                    <a href="#" class="service-link">Ver historial →</a>
+                </article>
+
+                <article class="service-card">
+                    <div class="service-icon">💳</div>
+                    <h3>Referencia de Pago Santander</h3>
+                    <p>Consulta tu referencia de pago temporal (disponible en agosto y febrero).</p>
+                    <a href="#" class="service-link">Consultar referencia →</a>
+                </article>
+
+                <article class="service-card">
+                    <div class="service-icon">🏪</div>
+                    <h3>Pagos en Línea</h3>
+                    <p>Realiza pagos con tarjeta, transferencia o en tiendas OXXO de forma segura.</p>
+                    <a href="#" class="service-link">Realizar pago →</a>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Métodos de Pago Section -->
+    <section class="payment-methods" id="pagos">
+        <div class="container">
+            <h2 class="section-title">Métodos de Pago Disponibles</h2>
+            <p class="section-subtitle">Elige la forma de pago que más te convenga</p>
+            
+            <div class="payment-grid">
+                <div class="payment-card">
+                    <div class="payment-icon">💳</div>
+                    <h3>Tarjeta de Crédito/Débito</h3>
+                    <ul class="payment-list">
+                        <li>Visa</li>
+                        <li>Mastercard</li>
+                        <li>American Express</li>
+                        <li>Pago inmediato y seguro</li>
+                    </ul>
+                </div>
+
+                <div class="payment-card">
+                    <div class="payment-icon">🏦</div>
+                    <h3>Transferencia Bancaria</h3>
+                    <ul class="payment-list">
+                        <li>SPEI</li>
+                        <li>Transferencia interbancaria</li>
+                        <li>Banco Santander</li>
+                        <li>Confirmación en 24 hrs</li>
+                    </ul>
+                </div>
+
+                <div class="payment-card">
+                    <div class="payment-icon">🏪</div>
+                    <h3>Pago en OXXO</h3>
+                    <ul class="payment-list">
+                        <li>Genera tu ficha de pago</li>
+                        <li>Paga en cualquier OXXO</li>
+                        <li>Sin comisiones extra</li>
+                        <li>Confirmación automática</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Información Importante -->
+    <section class="info-section">
+        <div class="container">
+            <h2 class="section-title">Información Importante</h2>
+            
+            <div class="info-content">
+                <div class="info-box">
+                    <h3>Periodos de Pago Santander</h3>
+                    <ol class="info-list">
+                        <li><strong>Agosto:</strong> Inicio del semestre agosto-diciembre</li>
+                        <li><strong>Febrero:</strong> Inicio del semestre febrero-junio</li>
+                        <li>La referencia de pago es temporal y solo está disponible durante estos meses</li>
+                        <li>Conserva tu comprobante de pago para cualquier aclaración</li>
+                    </ol>
+                </div>
+
+                <div class="info-box">
+                    <h3>Requisitos para Trámites</h3>
+                    <ul class="info-list">
+                        <li>Matrícula vigente</li>
+                        <li>CURP actualizada</li>
+                        <li>Correo electrónico institucional</li>
+                        <li>Comprobante de pago (cuando aplique)</li>
+                        <li>Identificación oficial (para certificados)</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer" id="contacto">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>CBTIS No. 131</h3>
+                    <p>Centro de Bachillerato Tecnológico Industrial y de Servicios</p>
+                    <p>Formando profesionales técnicos de excelencia</p>
+                </div>
+
+                <div class="footer-section">
+                    <h3>Enlaces Rápidos</h3>
+                    <ul class="footer-links">
+                        <li><a href="#servicios">Servicios</a></li>
+                        <li><a href="#pagos">Métodos de Pago</a></li>
+                        <li><a href="#">Aviso de Privacidad</a></li>
+                        <li><a href="#">Términos y Condiciones</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h3>Contacto</h3>
+                    <ul class="footer-links">
+                        <li>📧 contacto@cbtis131.edu.mx</li>
+                        <li>📞 (55) 1234-5678</li>
+                        <li>📍 Dirección del plantel</li>
+                        <li>🕐 Lun - Vie: 8:00 AM - 6:00 PM</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2025 CBTIS No. 131. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
